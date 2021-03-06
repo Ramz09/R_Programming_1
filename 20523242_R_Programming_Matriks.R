@@ -27,7 +27,7 @@ DetG; DetH; DetJ
 K <- cbind(G[ , 1],G[ , 2],G[ , 3],G[ , 4],G[ , 5], J[ , 1],J[ , 2],J[ , 3],J[ , 4],J[ , 5])
 K
 
-#No 4.5
+#NO 4.5
 Gin <- solve(G)
 Gin
 GG <- Gin * G
